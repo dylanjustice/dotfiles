@@ -1,0 +1,156 @@
+{
+    "java.home": "C:\\Users\\justiced\\AppData\\Local\\Programs\\Eclipse Foundation\\jdk-11.0.12.7-hotspot",
+    "java.help.firstView": "gettingStarted",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Default Dark+",
+    "remove-empty-lines.allowedNumberOfEmptyLines": 1,
+    "trailing-spaces.trimOnSave": true,
+    "terraform.languageServer": {
+        "external": true,
+        "pathToBinary": "",
+        "args": [
+            "serve",
+            "-tf-exec=C:\\Users\\justiced\\scoop\\shims\\terraform.exe"
+        ],
+        "maxNumberOfProblems": 100,
+        "trace.server": "off"
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "[terraform]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "hashicorp.terraform"
+    },
+    "[csharp]": {
+        "editor.formatOnSave": true
+    },
+    "[python]": {
+        "editor.formatOnSave": true
+    },
+    "[azure-pipelines]": {
+        "gitlens.codeLens.scopes": [
+            "document"
+        ],
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.autoIndent": "full",
+    },
+    "shellcheck.exclude": [
+        "1017"
+    ],
+    "yaml.customTags": [
+        "!Ref",
+        "!Sub",
+        "!GetAtt",
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Sub sequence",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[terraform-vars]": {
+        "editor.defaultFormatter": "hashicorp.terraform",
+        "editor.formatOnSave": false
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "rogalmic.vscode-xml-complete"
+    },
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "golang.go",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[arm-template]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "azureResourceManagerTools.parameterFiles": {},
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "gopls": {
+        "ui.semanticTokens": true
+    },
+    "window.zoomLevel": -1,
+    "java.imports.gradle.wrapper.checksums": [
+        {
+            "sha256": "5b1f729e4384a56b687ee6f1d9dab480cdf97bde3187095c537c51f75e59e755",
+            "allowed": true
+        },
+        {
+            "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+            "allowed": true
+        },
+        {
+            "sha256": "96f793a18e056c23ffeec67c1f3bb8eccff5a4a407fc9ceac183527e7eedf4b6",
+            "allowed": true
+        },
+        {
+            "sha256": "3dc39ad650d40f6c029bd8ff605c6d95865d657dbfdeacdb079db0ddfffedf9f",
+            "allowed": true
+        },
+        {
+            "sha256": "ad63ba21fb91e490e0f6fd0ca7d4049241f0f68a454b0b3075c041c4554e611c",
+            "allowed": true
+        }
+    ],
+    "json.schemas": []
+}
